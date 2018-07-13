@@ -1,0 +1,42 @@
+body{
+   
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 16px;
+    border: medium black;
+    font color: #0000FF;
+    background: white;
+    text-align: center;
+    background-image: url("pizza.jpeg");
+}
+.form-all {
+
+border: medium black;
+
+}
+.App {
+  text-align: center;
+
+
+}
+.container{
+  position: absolute;
+  transform: translate(-40%,-40%);
+  top: 45%;
+  left: 45%;
+  width: 500px;
+  background: #fff;
+  padding: 45px;
+  border: 1px solid rgba(0,0,0,2);
+  box-sizing: border-box;
+  color:blue;
+  
+
+}
+
+
+.container .btn:hover {
+    background-color: black;
+    color: white;
+    width: 60px;
+}
